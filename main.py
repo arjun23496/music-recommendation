@@ -45,5 +45,4 @@ for x in music_list:
 df_recommendations = df_recommendations.sort_values('interest', ascending=False)
 
 print df_recommendations
-
-df_recommendations.to_csv('user_music_interest.csv')
+# df_recommendations.to_csv('user_music_interest.csv')
